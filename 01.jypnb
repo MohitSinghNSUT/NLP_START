@@ -1,0 +1,12 @@
+import re
+
+text="first number is 9999991014 (999)-233-1234 "
+pattern="[\(]*[0-9]{3}[\)-]*\d{3}\-*\d{4}"
+
+print(re.findall(pattern,text))
+
+
+'''
+
+
+'''
